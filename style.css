@@ -2,17 +2,14 @@ body{
     background-image: linear-gradient(rgba(143, 180, 151, 1), rgb(64, 78, 67));
 }
 header{
-    position: relative;
-}
-#computerImg{
-    object-fit: cover;
-    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-image: url(./images/backgounds/compChips.jpg);
+    background-size: cover;
     height: 40vh;
-    position: absolute;
+    text-align: center;
 }
 #pfp{
     border-radius: 50%;
-    position:absolute;
-    width: 25%;
-    margin-left: 37.5%;
+    height: 50vh;
 }
