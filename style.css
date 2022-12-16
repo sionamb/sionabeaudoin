@@ -26,11 +26,21 @@ header{
 .headerAbout p, .headerAbout h1{
     background-color: #000000;
 }
+.headerAbout p{
+    font-size: 1.25rem;
+}
+.headerAbout h1{
+    font-size: 3rem;
+    font-family: 'Chivo Mono', monospace;
+}
 .socials{
     filter: invert(1);
     display: flex;
     justify-content: space-around;
     margin-right: 40%;
+}
+.socials img{
+    background-color: white;
 }
 main{
     margin-left: 5%;
@@ -42,3 +52,38 @@ main{
     border-radius: 5%;
     margin: 5%;
 }
+
+/* animation from "https://codepen.io/marudhupandiyang/pen/jLEdLR" */
+.title-holder {
+    top: 50%;
+    left: 20%;
+    position: inherit;
+  }
+  .title {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    white-space: no-wrap;
+    display:block;
+    border-right: 2px solid #ffffff;
+    animation: typewriter 10s steps(10) infinite, blinking-cursor 0.8s infinite;
+    animation-fill-mode: forwards
+  }
+  
+  @keyframes typewriter {
+    0% { width:0 }
+    25% { width: 50% }
+    48% { width: 50% }
+    50% { width: 50% }
+    55% { width: 50% }
+    75% { width: 50%; }
+    85% { width: 30%; }
+    100% { width: 0; }
+  }
+  
+  @keyframes blinking-cursor {
+    from { border-color: transparent }
+    to { border-color: #fdfdfd }
+  }
