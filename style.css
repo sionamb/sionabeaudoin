@@ -5,7 +5,7 @@ header{
     height: 35vh;
 }
 .headerBack{
-    margin-top: 10vh;
+    margin-top: 12vh;
     background-image: url(./images/backgounds/compChips.jpg);
     background-size: cover;
     height: 30vh;
@@ -18,7 +18,27 @@ header{
     border-radius: 50%;
     height: 35vh;
 }
+.headerAbout{
+    color: whitesmoke;
+    text-align: left;
+    margin-left: 5%;
+}
+.headerAbout p, .headerAbout h1{
+    background-color: #000000;
+}
+.socials{
+    filter: invert(1);
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40%;
+}
 main{
     margin-left: 5%;
     margin-right: 5%;
+}
+.about{
+    background-color: whitesmoke;
+    padding: 5%;
+    border-radius: 5%;
+    margin: 5%;
 }
