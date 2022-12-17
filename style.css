@@ -43,17 +43,30 @@ header{
     background-color: white;
 }
 main{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0% 5%;
 }
 .about{
     background-color: whitesmoke;
     padding: 5%;
-    border-radius: 5%;
+    border-radius: 25px;
     margin: 5%;
 }
+.about h1{
+    text-align: center;
+}
+.card-img-top{
+    object-fit: cover;
+    height: 17rem;
+    width:100%;
+}
 
-/* animation from "https://codepen.io/marudhupandiyang/pen/jLEdLR" */
+
+
+
+
+
+
+/* typewriter animation from "https://codepen.io/marudhupandiyang/pen/jLEdLR" */
 .title-holder {
     top: 50%;
     left: 20%;
@@ -74,11 +87,11 @@ main{
   
   @keyframes typewriter {
     0% { width:0 }
-    25% { width: 50% }
-    48% { width: 50% }
-    50% { width: 50% }
-    55% { width: 50% }
-    75% { width: 50%; }
+    25% { width: 35% }
+    48% { width: 35% }
+    50% { width: 35% }
+    55% { width: 35% }
+    75% { width: 35%; }
     85% { width: 30%; }
     100% { width: 0; }
   }
